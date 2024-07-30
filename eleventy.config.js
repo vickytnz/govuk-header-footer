@@ -8,11 +8,7 @@ module.exports = function (eleventyConfig) {
     headingPermalinks: true,
     header: {
       logotype: false,
-      productName: 'Design history',
-      search: {
-        indexPath: '/search.json',
-        sitemapPath: '/sitemap'
-      }
+      serviceName: 'Example service'
     },
     url:
       process.env.GITHUB_ACTIONS &&
