@@ -10,6 +10,30 @@ module.exports = function (eleventyConfig) {
       logotype: false,
       serviceName: 'Example service'
     },
+    footer:  {
+      meta: {
+          items: [
+
+              {
+                href: "#",
+                text: "Privacy statement"
+              },
+              {
+                href: "#",
+                text: "Accessibility"
+              },
+              {
+                href: "#",
+                text: "Terms and conditions"
+              },
+              {
+                href: "#",
+                text: "Code repository on Github"
+              }
+            ],
+            html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service must follow the Service Standard - <a class="govuk-footer__link" href="service-assessments">view its service assessment history</a> or <a class="govuk-footer__link" href="service-assessments">give feedback</a>'
+}
+},
     url:
       process.env.GITHUB_ACTIONS &&
       'https://x-govuk.github.io/govuk-design-history-template/'
