@@ -8,7 +8,7 @@ module.exports = function (eleventyConfig) {
     headingPermalinks: true,
     header: {
       logotype: false,
-      serviceName: 'Example service'
+      productName: 'Example service'
     },
     footer:  {
       meta: {
@@ -28,11 +28,15 @@ module.exports = function (eleventyConfig) {
               },
               {
                 href: "#",
-                text: "Code repository on Github"
+                text: "Feedback"
+              },
+              {
+                href: "https://github.com/vickytnz/govuk-header-footer",
+                text: "Open-sourced code"
               }
             ],
-            html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service must follow the Service Standard - <a class="govuk-footer__link" href="service-assessments">view its service assessment history</a> or <a class="govuk-footer__link" href="service-assessments">give feedback</a>'
-}
+            html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assessed to the Service Standard - <a class="govuk-footer__link" href="/service-assessments">view assessment history for this service</a>'
+  }
 },
     url:
       process.env.GITHUB_ACTIONS &&
