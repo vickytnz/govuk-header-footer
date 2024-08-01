@@ -1,27 +1,12 @@
-# Design history for GOV.UK services
+# A proposal for more Service Standard transparency by using the GOV.UK service footer
 
-A place for you to document your GOV.UK service designs.
 
-## Purpose of this project
+An idea to make services developed to the GOV.UK Service Standard have better transparency mechanisms (while also freeing up the space taken up by the phase banner and feedback link on current services).
 
-This repository makes it easy to:
+<img width="1000" alt="GOV.UK footer with standard links to Accessibility, Privacy, Terms and Conditions but with a new link to Open sourced code, a phase banner and 'This is a new service assessed to the Service Standard - view assessment history for this service'" src="https://github.com/user-attachments/assets/d44a7b06-4e89-4cce-9129-c0177d381fc1">
 
-* screenshot your designs
-* create pages of screenshots to document designs
-* document designs using the [GOV.UK Design System](https://design-system.service.gov.uk/)
-* print pages of designs
-* make designs shareable and linkable
 
-## Installation and getting started
-
-Read our guide on how to [set up a design history](https://x-govuk.github.io/govuk-design-history/get-started/).
+[See the example and full explanation on Github.io](https://vickytnz.github.io/govuk-header-footer/)
 
 ## Support
-
-This project is maintained by a small number of volunteers working across government.
-
-For questions about using a design history for your service, bug reports or feedback, [submit a new issue](https://github.com/x-govuk/govuk-design-history-template/issues/new).
-
-## Technical notes
-
-The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator with the [GOV.UK Eleventy Plugin](https://x-govuk.github.io/govuk-eleventy-plugin/).
+Leave comments in Github but also link to the [GOV.UK footer chat](https://github.com/alphagov/govuk-design-system-backlog/issues/96)
