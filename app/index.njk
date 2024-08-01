@@ -30,7 +30,7 @@
 
 
 
-<h1 class="govuk-heading-xl">A proposal for changing the GOV.UK header and footer for services</h1>
+<h1 class="govuk-heading-l">A proposal for more Service Standard transparency by using the GOV.UK service footer</h1>
 
 <p class="govuk-body">Vicky Teinaki</p>
 
@@ -60,22 +60,19 @@
 <h2 class="govuk-heading-l" id="now">Where we are now</h2>
 
 
-<p>Currently services have a phase banner that says the phase and gives a feedback link - this was important in the early days of GOV.UK but now maybe less so.</p>
-
-<p class="govuk-body">Meanwhile:</p>
+<p>Currently services have a phase banner that says the phase and gives a feedback link - this was important in the early days of GOV.UK but now maybe less so. Meanwhile:</p>
 <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
   <li>for government designers wanting to reuse patterns - it's hard to figure out if a beta service has been in beta for 6 months or 4 years</li>
-  <li>service standard reports moving from GOV.UK to sometimes departments makes it harder to independently understand what the state of a service is - particularly if a service did not meet a beta assessment but still had to go live</li>
-  <li>for government designers and technologists it is hard to find out where a service's open sourced code is, if at all</li>
-  <li>the accessibility statement is a great way to show transparency and traceability at the service and is a useful model</li>
-
+  <li>the increasingly decentralised Service Standard reports model (from GOV.UK only to various places) makes it harder to independently understand what the state of a service is - particularly if a service did not meet a beta assessment but still had to go live</li>
+  <li>it is hard to find out where a service's open sourced code is, if at all</li>
 </ul>
 
 
 
 
   <h2 class="govuk-heading-l" id="idea">A new idea for Service Standard transparency</h2>
-<p>I have mocked up a few scenarios that consider both phase and iteration of Service Standard. I have not considered examples that are exempt and don't use GOV.UK Frontend.</p>
+<p class='govuk-body'>I have a lot of interest in situating information at the point that it makes sense - I like the accessibility statements on the bottom of each government service, and links in other websites from the footers to changelogs and code bases. The footer is the place for nerds, but also a place for verifications and accreditations.</p>
+<p class='govuk-body'>I have mocked up a few scenarios that consider both phase and iteration of Service Standard. I have not considered examples that are exempt and don't use GOV.UK Frontend.</p>
 <p class="govuk-body">Theey share the following ideas and guesses:</p>
 <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
   <li>Move phase banner to the footer- based on guess that this is now more for government than the public </li>
@@ -317,10 +314,34 @@
 <p class="govuk-body"> This is unlikely to have phases but could show them if required.</p>
     <h2 class="govuk-heading-l" id="service-assessment-history">The service assessment history page</h2>
     <p class="govuk-body">This is positioned for transparency purposes much like the accessibility statement page, but with an ethos of collating basic information and linking to service assessment reports. </p>
+    <p class="govuk-body">It should have all service assessments on it, and for each assessment:</p>
+
+    <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+      <li>what phase the assessment was for</li>
+      <li>when it happened</li>
+      <li>who ran it (CDDO or, before 2021, GDS; or the department if it was internally reviewed)</li>
+      <li>whether the service met or didn't met the standard (or if it was Red, Amber, or Green)</li>
+      <li>a link to the report, or a note as to why it is not published</li>
+    </ul>
+
+    <p class="govuk-body">There might even be value in explaining what the Standard was and giving a way to contact the CDDO if someone noticed irregularities with the phases.</p>
+
+
 <p class="govuk-body"><a href="/service-assessments">View example service assessment history page</a></p>
     <h2 class="govuk-heading-l"id="thoughts" >Design is easy, governance is hard</h2>
 
-<p>The biggest challenges with this solution would be retroactively adding histories for services and documenting when a service does not adhere to the Service Standard (either by not coding in the open or having 'not met' reports and going into public beta anyway.) This transparency would take effort and could be painful - I'm not underestimating the work involved. However, better scoping some of the information as for digital government governance purposes this could help a lot with transparency.</p>
+<p>The biggest challenges with this solution would be:</p>
+
+<ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+  <li>retroactively adding histories for services</li>
+  <li>missing or unpublished reports</li>
+  <li>documenting non-standard phase progression, for example a service not meeting an assessment but continuing to the next phase anyway, or a service staying in beta for a long time</li>
+</ul>
+
+<p>There could also be similar challenges with the open sourced coding link for those departments that still do not code in the open.</p>
+
+
+<p class="govuk-body">This transparency would take effort and could be painful - I'm not underestimating the work involved. However, better scoping some of the information as for digital government governance purposes this could help a lot with transparency.</p>
 
 
 <h2 class="govuk-heading-l" id="feedback">Let me know your thoughts</h2>
