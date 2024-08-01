@@ -8,8 +8,10 @@ An idea to make services developed to the GOV.UK Service Standard have better tr
 
 ## The Service assessment history page
 Forgive the incorrect formatting of the header, this is an Eleventy default
-<img width="674" alt="Service assessments for service
-UK government digital services started after 1 July 2019 must meet the Service Standard on GOV.UK if they: change a customer record, are built, not bought. Service assessments for this service Phase	Date	Result	Report Live	1 July 2024	Not met	Not yet published Beta reassessment	1 March 2023	Met	Department service standard reports Beta	14 December 2022	Met	GOV.UK service standard reports Alpha reassessment	29 July 2021	Met	GOV.UK service standard reports Alpha	1 March 2021	Not met	GOV.UK service standard reports All service assessments after 1 April 2021 were by the Central Data and Digital Office. Any earlier service assessment were by the Government Digital Service." src="https://github.com/user-attachments/assets/09ed8916-e7d3-4b8c-9298-43c9a5245f93">
+
+<img width="600" alt="Service assessments for service
+UK government digital services started after 1 July 2019 must meet the Service Standard on GOV.UK if they: change a customer record, are built, not bought. Service assessments for this service Phase	Date	Result	Report Live	1 July 2024	Not met	Not yet published Beta reassessment	1 March 2023	Met	Department service standard reports Beta	14 December 2022	Met	GOV.UK service standard reports Alpha reassessment	29 July 2021	Met	GOV.UK service standard reports Alpha	1 March 2021	Not met	GOV.UK service standard reports All service assessments after 1 April 2021 were by the Central Data and Digital Office. Any earlier service assessment were by the Government Digital Service." src="https://github.com/user-attachments/assets/b82bd4a3-3a34-462f-b2d9-f44e3034dd86">
+
 
 
 [See the example and full explanation on Github.io](https://vickytnz.github.io/govuk-header-footer/)
