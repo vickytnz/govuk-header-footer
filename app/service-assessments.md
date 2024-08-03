@@ -1,25 +1,29 @@
 ---
 homepage: true
 layout: post
-title: Service assessments for [service name]
+title: Service assurance history for [service name]
 description: A permanent record of how your service has developed over time.
 
 ---
 
-UK government digital services started after 1 July 2019 must meet [the Service Standard on GOV.UK](https://www.gov.uk/service-manual/service-standard) if they:
+This service must meet the Service Standard. This is because it:
+- changes a customer record
+- is built, not bought
+- entered discovery after 1 June 2019 - services before this date were assured to a previous version of the Service Standard
 
-- change a customer record
-- are built, not bought
+[More about the Service Standard on GOV.UK](https://www.gov.uk/service-manual/service-standard)
 
 
-## Service assessments for this service
+## Service assurance for this service
 
-| Phase     | Date           | Result      | Report |
+This page is accurate as of 3 August 2024.
+
+| Assurance event     | Date           | Result      | Report |
 | --------- | -----------  | ----------- | ------ |
-| Live   | 1 July 2024             | Not met  | Not yet published |
+| Live assessment  | 1 July 2024             | Not met  | Not yet published |
 | Beta reassessment | 1 March 2023   | Met      | [Department service standard reports](https://www.gov.uk/service-manual/service-standard) |
-| Beta | 14 December 2022   | Met      | [GOV.UK service standard reports](https://www.gov.uk/service-manual/service-standard) |
+| Beta assessment | 14 December 2022   | Met      | [GOV.UK service standard reports](https://www.gov.uk/service-manual/service-standard) |
 | Alpha reassessment | 29 July 2021   | Met      | [GOV.UK service standard reports](https://www.gov.uk/service-manual/service-standard) |
-| Alpha | 1 March 2021   | Not met  | [GOV.UK service standard reports](https://www.gov.uk/service-manual/service-standard) |
+| Alpha assessment | 1 March 2021   | Not met  | [GOV.UK service standard reports](https://www.gov.uk/service-manual/service-standard) |
 
-All service assessments after 1 April 2021 were by the Central Data and Digital Office. Any earlier service assessment were by the Government Digital Service.
+All service assessments after 1 April 2021 were run by the Central Data and Digital Office and any before that date by the Government Digital Service.

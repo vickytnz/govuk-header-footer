@@ -45,8 +45,12 @@
     <a class="govuk-link" href="#new-footer">The footer</a>
   </li>
   <li>
-    <a class="govuk-link" href="#service-assessment-history">The service assessment history page</a>
+    <a class="govuk-link" href="#service-assessment-history">The service assurance history page</a>
   </li>
+  <li>
+    <a class="govuk-link" href="#phases">Phases and standards</a>
+  </li>
+
   <li>
     <a class="govuk-link" href="#thoughts" >Design is easy, governance is hard</h2>
   </li>
@@ -79,21 +83,24 @@
   <li>Move feedback into a link in the footer - based on guess that this is still findable </li>
   <li>Add open sourced code link - based on guess that this is useful for government technologists</li>
   <li>Contextualise the phase in relation to the Service Standard (or previous iterations) - based on guess that this is useful for government and could even be of interest to the public </li>
-  <li>Create a <a class="govuk-link" href="#service-assessment-history">'service assessment history'</a> page similar to the accessibility statement that summarises reports and dates and links to reports - based on guess that this will help with transparency, even if showing that many reports are not published</li>
+  <li>Create a <a class="govuk-link" href="#service-assessment-history">'service assurance history'</a> page similar to the accessibility statement that summarises reports and dates and links to reports - based on guess that this will help with transparency, even if showing that many reports are not published</li>
 
 </ul>
 
 <h2 class="govuk-heading-l" id="new-footer">The footer</h2>
-<p class="govuk-body">This footer needs to flex for services assessed to:</p>
+
+<p class="govuk-body">This option using the existing <a class="govuk-link" href="https://design-system.service.gov.uk/components/footer/">GOV.UK footer component</a> and:</p>
+
 <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
-  <li>Service Standard (discovery after June 2019)</li>
-  <li>Digital Service Standard (discovery between June 2015 and June 2019)</li>
-  <li>Digital by Default Service Standard (discovery before June 2015)</li>
-  <li>Technology Code of Practice (for bought solutions - this may or may not be a thing)</li>
+  <li>
+ puts a second level of government transparency for assurance history and code - thanks Ed Horsford for that suggestion of putting both source code and assessment history on the same second level rather than source code as part of existing links
+</li><li>
+ added 'get feedback' to the first line of public-facing links - thanks Joe Lanman for the suggestion of feedback being more of an active phrase
+</li>
 </ul>
 
-  <h3 class="govuk-heading-m">Services that are assessed to the Service Standard (discovery after June 2019)</h3>
-<p>Beta is likely to be the most common example. </p>
+
+
 </div></div></div></div>
 
 {{ govukFooter({
@@ -114,220 +121,177 @@
             },
             {
               href: "#",
-              text: "Feedback"
-            },
-            {
-              href: "https://github.com/vickytnz/govuk-header-footer",
-              text: "Open-sourced code"
+              text: "Give feedback"
             }
           ],
-          html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assessed to the Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>'
+          html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assured to the Service Standard -  view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="https://github.com/vickytnz/govuk-header-footer">source code</a>'
 }
 }) }}
+
+
+
+
+
+
 
 <div class="govuk-width-container" >
   <div class="govuk-main-wrapper" >
 <div class="govuk-grid-row">
+
+  <div class="govuk-grid-column-two-thirds-from-desktop">
+
+
+
+      <h2 class="govuk-heading-l" id="service-assessment-history">The service assurance history page</h2>
+      <p class="govuk-body">This is positioned for transparency purposes much like the accessibility statement page, but with an ethos of collating basic information and linking to service assessment reports. </p>
+      <p class="govuk-body">It should have all important service assurance events on it (for example service assessments and reassessments, or whatever equivalent happened), and for each assurance event:</p>
+
+      <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+        <li>what phase the assurance event was for</li>
+        <li>when it happened</li>
+        <li>who ran it (CDDO or, before 2021, GDS; or the department if it was internally reviewed)</li>
+        <li>whether the service met or didn't met the standard (or if it was Red, Amber, or Green)</li>
+        <li>a link to the report, or a note as to why it is not published</li>
+      </ul>
+
+      <p class="govuk-body">There might even be value in explaining what the Standard was and giving a way to contact the CDDO if someone noticed irregularities with the phases.</p>
+
+
+  <p class="govuk-body"><a href="/service-assessments">View example service assurance history page</a></p>
+
+
+  <h2 class="govuk-heading-l" id="phases">Phases and standards</h2>
+
+
+  <p class="govuk-body">The footer and service assurance phase needs to flex for services assessed to:</p>
+  <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+    <li>Service Standard (discovery after June 2019)</li>
+    <li>Digital Service Standard (discovery between June 2015 and June 2019)</li>
+    <li>Digital by Default Service Standard (discovery before June 2015)</li>
+    <li>Technology Code of Practice (for bought solutions - this may or may not be a thing)</li>
+  </ul>
+
+<p class="govuk-body">It also has to allow for:</P>
+
+
+<ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+  <li>
+ unusual assurance cadences - for example Covid or Brexit RAG assurance processes
+
+</li><li>
+ source code not being publicly available - either as it is not yet online as an alpha or because it is still in the process of being made publicly available
+ </li></ul>
+
+  <h3 class="govuk-heading-m">Services that are assured to the Service Standard (discovery after June 2019)</h3>
+
+  <p>The most likely starting version to be released is beta for the Service Standard as well as live, though there could be value for this in alpha.  </p>
+
+
+</div>
   <div class="govuk-grid-column-full">
 
-  <p class="govuk-body">Full set of phases:</p>
+  <div class="govuk-footer govuk-footer__meta-custom">
 
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            This service was assessed to the Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+            This service was assured to the Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="#">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assessed to the Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assured to the Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="#">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This is a new service assessed to the Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This is a new service assured to the Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a>
           </div>
-  </span>
+
 
 </div>
   <div class="govuk-grid-column-two-thirds-from-desktop">
 
 
-  <h3 class="govuk-heading-m">Services that were assessed to the Digital Service Standard (discovery between June 2015 and June 2019)</h3>
+  <h3 class="govuk-heading-m">Services that were assured to the Digital Service Standard (discovery between June 2015 and June 2019)</h3>
   <p>Live is likely to be the most common example - though there may be examples in beta (more about this in <a class="govuk-body" href="#thoughts">design is easy, governance is hard</a>) </p>
 
-</div></div></div></div>
-{{ govukFooter({
-    meta: {
-        items: [
 
-            {
-              href: "#",
-              text: "Privacy statement"
-            },
-            {
-              href: "#",
-              text: "Accessibility"
-            },
-            {
-              href: "#",
-              text: "Terms and conditions"
-            },
-            {
-              href: "#",
-              text: "Feedback"
-            },
-            {
-              href: "https://github.com/vickytnz/govuk-header-footer",
-              text: "Open-sourced code"
-            }
-          ],
-          html: 'This service was assessed to the Digital Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>'
-}
-}) }}
-
-<div class="govuk-width-container" >
-  <div class="govuk-main-wrapper" >
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
 
   <p class="govuk-body">Full set of phases:</p>
+
+  </div>
+    <div class="govuk-grid-column-full">
 <p class="govuk-body">
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            This service was assessed to the Digital Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            This service was assured to the Digital Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="#">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service was assessed to the Digital Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service was assured to the Digital Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="#">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This service was assessed to the Digital Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This service was assured to the Digital Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a>
           </div>
-  </span>
+
 </p>
 
 </div>
   <div class="govuk-grid-column-two-thirds-from-desktop">
 
-  <h3 class="govuk-heading-m">Services that were assessed to the Digital by Default Service Standard (discovery before June 2015)</h3>
+  <h3 class="govuk-heading-m">Services that were assured to the Digital by Default Service Standard (discovery before June 2015)</h3>
   <p>Live is likely to be the most common example - though there may be examples in beta (more about this in <a class="govuk-body" href="#thoughts">design is easy, governance is hard</a>) </p>
-
-</div></div></div></div>
-
-
-{{ govukFooter({
-    meta: {
-        items: [
-
-            {
-              href: "#",
-              text: "Privacy statement"
-            },
-            {
-              href: "#",
-              text: "Accessibility"
-            },
-            {
-              href: "#",
-              text: "Terms and conditions"
-            },
-            {
-              href: "https://github.com/vickytnz/govuk-header-footer",
-              text: "Open-sourced code"
-            }
-          ],
-          html: 'This service was assessed to the Digital by Default Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>'
-}
-}) }}
-
-<div class="govuk-width-container" >
-  <div class="govuk-main-wrapper" >
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-full">
 
   <p class="govuk-body">Full set of phases:</p>
 
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            This service was assessed to the Digital by Default Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+  </div>
+    <div class="govuk-grid-column-full">
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            This service was assured to the Digital by Default Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="https://github.com/vickytnz/govuk-header-footer">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service was assessed to the Digital by Default Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This service was assured to the Digital by Default Service Standard - view <a class="govuk-footer__link" href="#">assurance history</a> and <a class="govuk-footer__link" href="https://github.com/vickytnz/govuk-header-footer">source code</a>
           </div>
-  </span>
-  <span class="govuk-footer">
-  <div class="govuk-footer__meta-custom">
-            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This service was assessed to the Digital by Default Service Standard - <a class="govuk-footer__link" href="#">view assessment history for this service</a>
+
+
+
+  <div class="govuk-footer govuk-footer__meta-custom">
+
+            <strong class="govuk-tag govuk-phase-banner__content__tag">Alpha</strong>This service was assured to the Digital by Default Service Standard - <a class="govuk-footer__link" href="#">view assurance history for this service</a></a>
           </div>
-  </span>
+
 
   </div>
     <div class="govuk-grid-column-two-thirds-from-desktop">
 
     <h3 class="govuk-heading-m">Services that were bought using the Technology Code of Practice</h3>
-    <p>While I think these are going to have their own branding as they are bought not built, there may be need for bought solutions to show that they went through the Technology Code of Pratice.</p>
+    <p>While I think these are going to have their own branding as they are bought not built, there may be need for bought solutions to show that they went through the Technology Code of Practice.</p>
 
-  </div></div></div></div>
-
-
-{{ govukFooter({
-    meta: {
-        items: [
-
-            {
-              href: "#",
-              text: "Privacy statement"
-            },
-            {
-              href: "#",
-              text: "Accessibility"
-            },
-            {
-              href: "#",
-              text: "Terms and conditions"
-            },
-            {
-              href: "https://github.com/vickytnz/govuk-header-footer",
-              text: "Open-sourced code"
-            }
-          ],
-          html: 'This service was bought using the Technology Code of Practice - <a class="govuk-footer__link" href="#">view assessment history for this service</a>'
-}
-}) }}
-
-
-{% endblock %}
-
-
-<div class="govuk-width-container" >
-  <div class="govuk-main-wrapper" >
-<div class="govuk-grid-row">
-
-
-    <div class="govuk-grid-column-two-thirds-from-desktop">
 
 <p class="govuk-body"> This is unlikely to have phases but could show them if required.</p>
-    <h2 class="govuk-heading-l" id="service-assessment-history">The service assessment history page</h2>
-    <p class="govuk-body">This is positioned for transparency purposes much like the accessibility statement page, but with an ethos of collating basic information and linking to service assessment reports. </p>
-    <p class="govuk-body">It should have all service assessments on it, and for each assessment:</p>
 
-    <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
-      <li>what phase the assessment was for</li>
-      <li>when it happened</li>
-      <li>who ran it (CDDO or, before 2021, GDS; or the department if it was internally reviewed)</li>
-      <li>whether the service met or didn't met the standard (or if it was Red, Amber, or Green)</li>
-      <li>a link to the report, or a note as to why it is not published</li>
-    </ul>
+</div>
+  <div class="govuk-grid-column-full">
 
-    <p class="govuk-body">There might even be value in explaining what the Standard was and giving a way to contact the CDDO if someone noticed irregularities with the phases.</p>
+<div class="govuk-footer govuk-footer__meta-custom">
+          This service was bought using the Technology Code of Practice - view <a class="govuk-footer__link" href="#">assurance history</a>
+        </div>
+
+</div>
+  <div class="govuk-grid-column-two-thirds-from-desktop">
 
 
-<p class="govuk-body"><a href="/service-assessments">View example service assessment history page</a></p>
+
     <h2 class="govuk-heading-l"id="thoughts" >Design is easy, governance is hard</h2>
 
 <p>The biggest challenges with this solution would be:</p>
@@ -349,3 +313,5 @@
 
 
   </div></div></div></div>
+
+  {% endblock %}

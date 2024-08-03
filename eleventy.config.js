@@ -28,14 +28,10 @@ module.exports = function (eleventyConfig) {
               },
               {
                 href: "#",
-                text: "Feedback"
-              },
-              {
-                href: "https://github.com/vickytnz/govuk-header-footer",
-                text: "Open-sourced code"
+                text: "Give feedback"
               }
             ],
-            html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assessed to the Service Standard - <a class="govuk-footer__link" href="/service-assessments">view assessment history for this service</a>'
+            html: '<strong class="govuk-tag govuk-phase-banner__content__tag">Beta</strong>This is a new service assured to the Service Standard - view <a class="govuk-footer__link" href="/service-assessments">assurance history</a> and <a class="govuk-footer__link" href="https://github.com/vickytnz/govuk-header-footer"">source code</a>'
   }
 },
     url:
