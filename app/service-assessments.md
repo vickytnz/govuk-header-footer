@@ -1,7 +1,7 @@
 ---
 homepage: true
 layout: post
-title: Service assurance history for [service name]
+title: Assurance history for [service name]
 description: A permanent record of how your service has developed over time.
 
 ---
@@ -14,7 +14,7 @@ This service must meet the Service Standard. This is because it:
 [More about the Service Standard on GOV.UK](https://www.gov.uk/service-manual/service-standard)
 
 
-## Service assurance for this service
+## Previous assurance events
 
 This page is accurate as of 3 August 2024.
 
