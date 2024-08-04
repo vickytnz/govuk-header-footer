@@ -35,8 +35,8 @@ module.exports = function (eleventyConfig) {
   }
 },
     url:
-      process.env.GITHUB_ACTIONS &&
-      'https://vickytnz.github.io/govuk-header-footer/'
+    process.env.GITHUB_ACTIONS &&
+    'https://x-govuk.github.io/govuk-design-history-template/'
   })
 
   // Passthrough

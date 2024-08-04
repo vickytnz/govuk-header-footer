@@ -1,7 +1,7 @@
 
 
 {% block head %}
- <link rel="stylesheet" href="/assets/govuk.css">
+ <link rel="stylesheet" href="{{'/assets/govuk.css' | canonicalUrl }}">
  {% for stylesheet in options.stylesheets %}
  <link rel="stylesheet" href="{{ stylesheet | canonicalUrl }}">
  {% endfor %}
@@ -139,7 +139,6 @@
 <div class="govuk-grid-row">
 
   <div class="govuk-grid-column-two-thirds-from-desktop">
-
 
 
       <h2 class="govuk-heading-l" id="service-assessment-history">The service assurance history page</h2>
